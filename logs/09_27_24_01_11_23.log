@@ -1,0 +1,15 @@
+[2024-09-27 01:11:23,969] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.42.53:8000
+[2024-09-27 01:11:23,969] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-09-27 01:11:24,355] 97 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 01:11:24] "GET /predict HTTP/1.1" 200 -
+[2024-09-27 01:12:06,096] 63 root - INFO - Dataframe Gathered
+[2024-09-27 01:12:06,096] 34 root - INFO - Dataframe Gathered
+[2024-09-27 01:12:06,183] 43 root - INFO - Prediction Result: [[1.57, 0.35, 0.4, 1.4, 1.46, 1.47, -0.13, -0.32, 0.02]]
+[2024-09-27 01:12:06,184] 97 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 01:12:06] "POST /predict HTTP/1.1" 200 -
+[2024-09-27 01:12:23,391] 97 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 01:12:23] "GET /predict HTTP/1.1" 200 -
+[2024-09-27 01:12:37,617] 63 root - INFO - Dataframe Gathered
+[2024-09-27 01:12:37,617] 34 root - INFO - Dataframe Gathered
+[2024-09-27 01:12:37,621] 43 root - INFO - Prediction Result: [[1.57, 0.35, 0.4, 1.4, 1.46, 1.47, -0.13, -0.32, 0.02]]
+[2024-09-27 01:12:37,621] 97 werkzeug - INFO - 127.0.0.1 - - [27/Sep/2024 01:12:37] "POST /predict HTTP/1.1" 200 -

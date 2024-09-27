@@ -1,0 +1,21 @@
+[2024-09-26 22:19:16,606] 22 root - INFO - Data ingestion started
+[2024-09-26 22:19:16,728] 25 root - INFO - Reading data frame
+[2024-09-26 22:19:17,447] 28 root - INFO - Raw dataset is saved in artifact folder
+[2024-09-26 22:19:17,470] 30 root - INFO - Train test split is completed
+[2024-09-26 22:19:18,201] 33 root - INFO - Data ingestion part completed
+[2024-09-26 22:19:18,345] 69 root - INFO - Reading train and test data completed
+[2024-09-26 22:19:18,349] 70 root - INFO - Train Dataframe Head : 
+       id  carat        cut color clarity  depth  table     x     y     z  price
+0  159885   0.23  Very Good     E     VS1   63.4   57.0  3.89  3.90  2.45    357
+1    4979   0.30    Premium     H    VVS1   60.9   58.0  4.34  4.32  2.64    878
+2  110728   0.30      Ideal     G    VVS1   61.9   56.0  4.33  4.29  2.67    949
+3   16418   0.32  Very Good     D     SI1   62.9   59.0  4.34  4.37  2.74    686
+4  128905   0.52    Premium     G     VS2   60.6   59.0  5.22  5.20  3.15   1607
+[2024-09-26 22:19:18,351] 71 root - INFO - Test Dataframe Head : 
+       id  carat        cut color clarity  depth  table     x     y     z  price
+0  178089   0.56      Ideal     F     SI1   61.0   57.0  5.33  5.36  3.25   1599
+1   54704   0.31      Ideal     F     VS2   61.7   56.0  4.38  4.37  2.70    749
+2   52445   1.01      Ideal     F     VS2   62.1   56.0  6.37  6.41  3.97   6467
+3  154969   2.04    Premium     G     SI2   62.8   58.0  8.08  8.03  5.06  13542
+4  165346   0.38  Very Good     H     VS2   61.0   58.0  4.66  4.68  2.85    683
+[2024-09-26 22:19:18,351] 107 root - INFO - Exception occured in initialize_data_transformation

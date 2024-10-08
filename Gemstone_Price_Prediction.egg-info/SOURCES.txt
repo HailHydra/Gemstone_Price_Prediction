@@ -1,6 +1,4 @@
 README.md
-pyproject.toml
-setup.cfg
 setup.py
 Gemstone_Price_Prediction.egg-info/PKG-INFO
 Gemstone_Price_Prediction.egg-info/SOURCES.txt

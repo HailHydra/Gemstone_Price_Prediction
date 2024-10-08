@@ -1,1 +1,8 @@
-env/
+env
+build
+dist
+Gemstone_Price_Prediction.egg-info
+artifacts
+logs
+mlruns
+**/__pycache__/

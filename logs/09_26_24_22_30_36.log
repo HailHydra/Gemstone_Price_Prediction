@@ -1,3 +1,0 @@
-[2024-09-26 22:30:37,873] 22 root - INFO - Data ingestion started
-[2024-09-26 22:30:37,991] 25 root - INFO - Reading data frame
-[2024-09-26 22:30:37,993] 39 root - INFO - Error occured at initiate_data_ingestion

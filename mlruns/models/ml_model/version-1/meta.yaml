@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1727883896895
+current_stage: None
+description: null
+last_updated_timestamp: 1727883896895
+name: ml_model
+run_id: b3ccfa6be6464e0585ebda9a1b14616c
+run_link: null
+source: file:///C:/Users/Varun/Music/Python/ProjectOne/mlruns/0/b3ccfa6be6464e0585ebda9a1b14616c/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/Varun/Music/Python/ProjectOne/mlruns/0/b3ccfa6be6464e0585ebda9a1b14616c/artifacts/model
+user_id: null
+version: 1

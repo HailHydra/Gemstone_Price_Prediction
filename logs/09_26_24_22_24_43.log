@@ -1,5 +1,0 @@
-[2024-09-26 22:24:44,325] 22 root - INFO - Data ingestion started
-[2024-09-26 22:24:44,444] 25 root - INFO - Reading data frame
-[2024-09-26 22:24:45,147] 28 root - INFO - Raw dataset is saved in artifact folder
-[2024-09-26 22:24:45,172] 30 root - INFO - Train test split is completed
-[2024-09-26 22:24:45,881] 33 root - INFO - Data ingestion part completed

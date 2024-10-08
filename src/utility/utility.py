@@ -17,19 +17,19 @@ def save_object(file_path,obj):
     except Exception as e:
         raise customexception(e,sys)
     
-def evaluate_model(X_train,Y_train,X_test,Y_test,models):
+def evaluate_model(x_train,y_train,x_test,y_test,models):
     try:
         report={}
         for i in range(len(models)):
             model=list(models.values())[i]
-            #Train Model
-            model.fit(X_train,Y_train)
+            # fit() is used to train a model on a given dataset
+            model.fit(x_train,y_train)
 
-            #Predict Testing Data
-            Y_test_pred=model.predict(X_test)
+            # predict() is used to predict the output
+            y_test_pred=model.predict(x_test)
 
-            #Get R2 scores for train and test data
-            test_model_score=r2_score(Y_test,Y_test_pred)
+            # R2 scores for train and test data is calculated
+            test_model_score=r2_score(y_test,y_test_pred)
             report[list(models.keys())[i]]=test_model_score
         
         return report

@@ -22,7 +22,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Data ingestion started")
         try:
-            data=pd.read_csv(r"C:\Users\Varun\Downloads\train.csv")
+            data=pd.read_csv(r"https://raw.githubusercontent.com/HailHydra/Gemstone_Price_Prediction/refs/heads/main/train.csv")
             logging.info("Reading data frame")
 
             # os.makedirs is used to create directories

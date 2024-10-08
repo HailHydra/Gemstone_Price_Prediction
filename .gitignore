@@ -1,8 +1,16 @@
-env
-build
-dist
-Gemstone_Price_Prediction.egg-info
-artifacts
-logs
-mlruns
+# Virtual environment
+env/
+venv/
+
+# Build directories
+build/
+dist/
+Gemstone_Price_Prediction.egg-info/
+
+# Artifacts and logs
+artifacts/
+logs/
+mlruns/
+
+# Python cache directories
 **/__pycache__/
